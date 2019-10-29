@@ -17,7 +17,7 @@ class Figure {
   }
 
   get perimeter() {
-    return this.perimeter;
+    return this._perimeter;
   }
 }
 
