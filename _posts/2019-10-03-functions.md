@@ -8,6 +8,8 @@ function name() {
 }
 ```
 
+--
+
 [Function expression](https://developer.mozilla.org/en-US/docs/web/JavaScript/Reference/Operators/function). The function keyword can be used to define a function inside an expression.
 
 ```
