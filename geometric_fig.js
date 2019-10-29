@@ -4,12 +4,12 @@ class Figure {
     this._perimeter = 0.0;
   }
 
-  set area(area) {
-    this._area = area;
+  set area(value) {
+    this._area = value;
   }
 
-  set perimeter(perimeter) {
-    this._perimeter = perimeter;
+  set perimeter(value) {
+    this._perimeter = value;
   }
 
   get area() {
@@ -17,7 +17,7 @@ class Figure {
   }
 
   get perimeter() {
-    return this.perimeter;
+    return this._perimeter;
   }
 }
 
