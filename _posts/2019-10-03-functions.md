@@ -68,7 +68,9 @@ btn2.addEventListener('click', function(event) {
 
 Recursion
 
-"Recursion is a method of solving a problem where the solution depends on solutions to smaller instances of the same problem" [Wikipedia](https://en.wikipedia.org/wiki/Recursion_(computer_science))
+"Recursion is a method of solving a problem where the solution depends on solutions to smaller instances of the same problem" [Wikipedia](https://en.wikipedia.org/wiki/Recursion_%28computer_science%29)
+
+--
 
 Typically, a recursive functions has two parts:
 
@@ -77,11 +79,9 @@ Typically, a recursive functions has two parts:
 
 --
 
-Example: Factorial calculator
+Example: [Factorial](https://en.wikipedia.org/wiki/Factorial) calculator
 
-Definition: [Factorial](https://en.wikipedia.org/wiki/Factorial)
-
-n! = n * (n - 1) * (n - 2) * ... 3 * 2 * 1
+![factorial](https://wikimedia.org/api/rest_v1/media/math/render/svg/9b2be989313e5805c0d2a0d6a730493e04efd317)
 
 --
 
