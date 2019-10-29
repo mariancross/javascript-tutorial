@@ -63,3 +63,69 @@ btn2.addEventListener('click', function(event) {
 ```
 
 [functions.js](https://github.com/mariancross/javascript-tutorial/blob/1b9e65d35e8dd61b56b8413c792e3879cd2673c4/functions.js)
+
+--
+
+Recursion
+
+"Recursion is a method of solving a problem where the solution depends on solutions to smaller instances of the same problem" [Wikipedia](https://en.wikipedia.org/wiki/Recursion_(computer_science))
+
+Typically, a recursive functions has two parts:
+
+* Base case
+* Recursive call
+
+--
+
+Example: Factorial calculator
+
+Definition: [Factorial](https://en.wikipedia.org/wiki/Factorial)
+
+n! = n * (n - 1) * (n - 2) * ... 3 * 2 * 1
+
+--
+
+```
+function factorial(n) {
+  if (n <= 1) {
+    return 1;
+  }
+  else {
+    return n * factorial(n - 1);
+  }
+}
+```
+
+--
+
+```
+<h2>Factorial</h2>
+<input type="text" id="input_value">
+<button type="button" id="btn_factorial">Calculate</button>
+<p id="result"></p>
+```
+
+[index.html](https://github.com/mariancross/javascript-tutorial/blob/923d7c6b1ea61375123d3069be8d3c4901d461fa/index.html)
+
+--
+
+```
+var n = parseInt(document.getElementById('input_value').value);
+var btn_fact = document.getElementById('btn_factorial');
+
+btn_fact.addEventListener('click', function(event) {
+  var fact = factorial(n);
+  result = document.getElementById('result').innerHTML = fact;
+});
+
+function factorial(n) {
+  if (n <= 1) {
+    return 1;
+  }
+  else {
+    return n * factorial(n - 1);
+  }
+}
+````
+
+[functions.js](https://github.com/mariancross/javascript-tutorial/blob/923d7c6b1ea61375123d3069be8d3c4901d461fa/functions.js)
