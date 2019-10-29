@@ -28,3 +28,31 @@ figure2.area = 25;
 
 console.log('Figure1 area: ' + figure1.area);
 console.log('Figure2 area: ' + figure2.area);
+
+class Rectangle extends Figure {
+  constructor(width, height) {
+    super();
+    this._width = width;
+    this._height = height;
+
+    this.area = this._width * this._height;
+    this.perimeter = 2 * (this._width + this._height);
+  }
+}
+
+var rect1 = new Rectangle(10, 5);
+console.log('Rectangle area: ' + rect1.area);
+console.log('Rectangle perimeter: ' + rect1.perimeter);
+
+class Circle extends Figure {
+  constructor(radius) {
+    super();
+    this._radius = radius;
+    this.area = Math.PI * radius * radius;
+    this.perimeter = 2 * Math.PI * radius;
+  }
+}
+
+var cir1 = new Circle(8);
+console.log('Circle area: ' + cir1.area);
+console.log('Circle perimeter: ' + cir1.perimeter);
