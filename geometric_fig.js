@@ -19,6 +19,10 @@ class Figure {
   get perimeter() {
     return this._perimeter;
   }
+
+  print(type) {
+    console.log('This is a ' + type);
+  }
 }
 
 var figure1 = new Figure();
@@ -38,11 +42,16 @@ class Rectangle extends Figure {
     this.area = this._width * this._height;
     this.perimeter = 2 * (this._width + this._height);
   }
+
+  print() {
+    super.print('rectangle');
+  }
 }
 
 var rect1 = new Rectangle(10, 5);
 console.log('Rectangle area: ' + rect1.area);
 console.log('Rectangle perimeter: ' + rect1.perimeter);
+rect1.print();
 
 class Circle extends Figure {
   constructor(radius) {
@@ -51,8 +60,13 @@ class Circle extends Figure {
     this.area = Math.PI * radius * radius;
     this.perimeter = 2 * Math.PI * radius;
   }
+
+  print() {
+    super.print('circle');
+  }
 }
 
 var cir1 = new Circle(8);
 console.log('Circle area: ' + cir1.area);
 console.log('Circle perimeter: ' + cir1.perimeter);
+cir1.print();
