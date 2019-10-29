@@ -1,5 +1,11 @@
 ## Functions
 
+- Function declaration
+- Function expression
+- Recursion
+
+--
+
 [Function declaration](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/function) (function statements) defines a function with the specified parameters
 
 ```
