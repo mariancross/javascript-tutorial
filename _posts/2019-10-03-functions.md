@@ -33,16 +33,15 @@ Create two buttons, one link to a function declaration and the other to a functi
 ```
 <!DOCTYPE html>
 <html>
-<head>
-  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-  <title>Tutorial 2 - JavaScript 6</title>
-</head>
-<body>
-  <button type="button" id="btn1">Function definition</button>
-  <button type="button" id="btn2">Function expression</button>
-
-  <script type="text/javascript" src="functions.js"></script>
-</body>
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <title>Tutorial 2 - JavaScript 6</title>
+  </head>
+  <body>
+    <button type="button" id="btn1">Function definition</button>
+    <button type="button" id="btn2">Function expression</button>
+    <script type="text/javascript" src="functions.js"></script>
+  </body>
 </html>
 ```
 
