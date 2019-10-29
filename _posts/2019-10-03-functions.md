@@ -8,7 +8,7 @@
 
 [Function declaration](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/function) (function statements) defines a function with the specified parameters
 
-```javascript
+```
 function name() {
   // body
 }
@@ -18,7 +18,7 @@ function name() {
 
 [Function expression](https://developer.mozilla.org/en-US/docs/web/JavaScript/Reference/Operators/function). The function keyword can be used to define a function inside an expression.
 
-```javascript
+```
 var my_function = function {
   // body
 }
@@ -30,7 +30,7 @@ The function name can be omitted, in which case the function is anonymous
 
 Create two buttons, one link to a function declaration and the other to a function expression.
 
-```javascript
+```
 <!DOCTYPE html>
 <html>
   <head>
@@ -40,7 +40,6 @@ Create two buttons, one link to a function declaration and the other to a functi
   <body>
     <button type="button" id="btn1">Function definition</button>
     <button type="button" id="btn2">Function expression</button>
-    <script type="text/javascript" src="functions.js"></script>
   </body>
 </html>
 ```
@@ -49,7 +48,7 @@ Create two buttons, one link to a function declaration and the other to a functi
 
 --
 
-```javascript
+```
 var btn1 = document.getElementById('btn1');
 btn1.addEventListener('click', displayMessage);
 
