@@ -1,35 +1,35 @@
 # Your presentation title
-title: Jekyll and Reveal.js
+title: Tutorial 2 - JavaScript 6
 
 # Your presentation description (optional)
-description: A framework for easily creating beautiful presentations using HTML
+description: Tutorial Part 2 for Interactive Media Design and Production
 
 # Your name (optional)
-author: jekyll-revealjs contributors
+author: Maria Santamaria
 
 # The Reveal theme
-reveal_theme: black.css
+reveal_theme: white.css
 
 # The Reveal transition
 reveal_transition: default
 
 # Path to the used theme (defaults to the Reveal.js standard theme path)
-reveal_theme_path: reveal.js/css/theme/ 
+reveal_theme_path: reveal.js/css/theme/
 
 # Additional custom CSS paths
-extra_css: 
+extra_css:
 
 # Custom CSS for highlighting (defaults to reveal.js/lib/css/zenburn.css)
-highlight_style_sheet: 
+highlight_style_sheet:
 
 # Embed Server-side speaker notes?
 reveal_notes_server: false
 
 # Additional reveal.js options
-reveal_options: 
+reveal_options:
 
 # Additional reveal.js dependencies
-reveal_dependencies: 
+reveal_dependencies:
 
 # Reveal.js subdirectory
 reveal_path: reveal.js/
