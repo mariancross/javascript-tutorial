@@ -17,10 +17,14 @@ class Figure {
   }
 
   get perimeter() {
-    return this._perimeter;
+    return this.perimeter;
   }
 }
 
-var figure = new Figure();
-figure.area = 15;
-console.log(figure.area);
+var figure1 = new Figure();
+figure1.area = 15;
+var figure2 = new Figure();
+figure2.area = 25;
+
+console.log('Figure1 area: ' + figure1.area);
+console.log('Figure2 area: ' + figure2.area);
